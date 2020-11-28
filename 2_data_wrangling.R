@@ -12,8 +12,8 @@ multi_detect <- function(string, pattern){
 
 # Join Data ---------------------------------------------------------------
 
-pancake_ingredients <- read_rds("pancakes_raw.rds")
-bread_ingredients <- read_rds("bread_raw.rds")
+pancake_ingredients <- read_rds("./Raw Data/pancakes_raw.rds")
+bread_ingredients <- read_rds("./Raw Data/bread_raw.rds")
 
 pancake_df <- pancake_ingredients %>% 
   bind_rows()
